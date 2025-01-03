@@ -1,0 +1,13 @@
+## For backend:
+cd backend
+(Create virtual environment if needed and activate it)
+pip install -r requirements.txt
+python server.py
+
+## For frontend:
+cd frontend
+npm i
+npm run dev
+
+## Have fun:
+Open the localhost link and enjoy/play around!
