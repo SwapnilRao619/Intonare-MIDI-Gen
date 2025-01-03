@@ -11,3 +11,6 @@ npm run dev
 
 ## Have fun:
 Open the localhost link and enjoy/play around!
+
+## Credits:
+Much thanks to Valerio Velardo for his tutorials (on YT) regarding RNN-LSTMs and "Introduction to Music Theory".
