@@ -1,0 +1,4 @@
+flask
+torch
+music21
+numpy

@@ -1,0 +1,17 @@
+{
+    "name": "music-generator-frontend",
+    "version": "1.0.0",
+    "dependencies": {
+      "axios": "^0.21.1",
+      "next": "latest",
+      "react": "latest",
+      "react-dom": "latest",
+      "react-tsparticles": "^2.9.3",
+      "tsparticles": "^2.11.1"
+    },
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    }
+  }

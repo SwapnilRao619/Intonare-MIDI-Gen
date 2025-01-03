@@ -1,0 +1,108 @@
+/* Home.module.css */
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e1e, #282c34); /* Dark gradient background */
+    color: #f0f0f0; /* Light text for contrast */
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+    overflow: hidden;
+  }
+  
+  #tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  
+  .title {
+    font-size: 4rem;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 0 0 15px #ff6b81, 0 0 30px #ff4757, 0 0 45px #ff6b81, 0 0 60px #ff4757, 0 0 75px #ff6b81;
+    color: #fffae6; /* Slightly creamy white for the title */
+    z-index: 1;
+  }
+  
+  .formGroup {
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 450px;
+    z-index: 1;
+  }
+  
+  .label {
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: #ccc; /* Softer label color */
+  }
+  
+  .select {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #3a3a3a; /* Darker select background */
+    color: #fff;
+    appearance: none; /* Remove default arrow */
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='white' d='M6 8.586L2.929 5.515 4.343 4.1 6 5.757 7.657 4.1 9.071 5.515z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 12px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .select:hover {
+    background-color: #4a4a4a;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .button {
+    padding: 14px 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #ff6b81, #ff4757);
+    color: #fff;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(255, 107, 129, 0.4);
+    z-index: 1;
+  }
+  
+  .button:hover {
+    background: linear-gradient(45deg, #ff4757, #ff6b81);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(255, 71, 87, 0.6);
+  }
+  
+  .button:disabled {
+    background: #bbb;
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+  
+  .downloadLink {
+    margin-top: 25px;
+    z-index: 1;
+  }
+  
+  .downloadLink a {
+    color: #1e90ff; /* DodgerBlue color for download link */
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: color 0.3s ease;
+  }
+  
+  .downloadLink a:hover {
+    color: #63b3ed; /* Lighter blue on hover */
+  }
